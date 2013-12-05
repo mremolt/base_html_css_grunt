@@ -13,13 +13,12 @@
   "author": "Marc Remolt",
   "license": "BSD",
   "dependencies": {
-    "node-sass": "~0.7.0",
-    "express": "~3.4.6",
-    "grunt-sass": "~0.8.1"
+    "express": "~3.4.6"
   },
   "devDependencies": {
-    "grunt-express-server": "~0.4.8",
     "grunt": "~0.4.2",
+    "grunt-express-server": "~0.4.8",
+    "grunt-sass": "~0.8.1",
     "grunt-contrib-watch": "~0.5.3"
   }
 }
