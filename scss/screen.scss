@@ -1,0 +1,48 @@
+// override variables
+//$row-margin-bottom: 10px;
+
+@import 'framework/framework';
+
+// own css
+
+body {
+  font-family: $georgia;
+}
+
+#{$all-text-inputs} {
+  border: 1px solid green;
+}
+
+#{$all-text-inputs-focus} { // Target the :focus pseudo-class
+  @include transition (all 0.5s ease-in-out);
+  background: white;
+  border: 2px solid green;
+}
+
+// grid überschreiben
+.row {
+  .column, .columns {
+    background-color: lighten(#ff0000, 40%);
+
+    .columns {
+      background-color: lighten(#00ff00, 40%);
+    }
+  }
+}
+
+.container {
+  background-color: #999999;
+}
+
+// IE overrides
+.lt-ie10 {
+}
+
+.lt-ie9 {
+}
+
+.lt-ie8 {
+}
+
+// Media queries in extra file, it's long enogh as is.
+@import 'media_queries';

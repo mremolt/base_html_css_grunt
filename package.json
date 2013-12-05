@@ -1,0 +1,25 @@
+{
+  "name": "base_html_css_grunt",
+  "version": "0.0.1",
+  "description": "Static website tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mremolt/base_html_css_grunt.git"
+  },
+  "author": "Marc Remolt",
+  "license": "BSD",
+  "dependencies": {
+    "node-sass": "~0.7.0",
+    "express": "~3.4.6",
+    "grunt-sass": "~0.8.1"
+  },
+  "devDependencies": {
+    "grunt-express-server": "~0.4.8",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

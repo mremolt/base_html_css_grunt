@@ -1,0 +1,34 @@
+@mixin testborder {
+  border: 1px solid green;
+}
+
+@mixin verdana {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+@mixin courier {
+  font-family: Courier, "Courier New", sans-serif;
+}
+
+@mixin sense_light {
+  font-family: "Sense-Light", Arial, sans-serif;
+  font-weight: normal;
+  font-weight: normal;
+}
+
+@mixin sense_light_italic {
+  font-family: "Sense-LightItalic", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin sense_medium {
+  font-family: "Sense-Medium", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin montez {
+  font-family: "Montez", "Rochester", "Times New Roman";
+
+}

@@ -1,0 +1,46 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  // IE overrides
+  .lt-ie10 {
+  }
+
+  .lt-ie9 {
+  }
+
+  .lt-ie8 {
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+  // IE overrides
+  .lt-ie10 {
+  }
+
+  .lt-ie9 {
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+  // IE overrides
+  .lt-ie10 {
+  }
+
+  .lt-ie9 {
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  // IE overrides
+  .lt-ie10 {
+  }
+
+  .lt-ie9 {
+  }
+}
