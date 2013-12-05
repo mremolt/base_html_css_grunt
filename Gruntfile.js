@@ -31,14 +31,14 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/screen.css': 'scss/screen.scss'
+          'app/css/screen.css': 'app/scss/screen.scss'
         }
       },
       dev: {
         options: {
         },
         files: {
-          'css/screen.css': 'scss/screen.scss'
+          'app/css/screen.css': 'app/scss/screen.scss'
         }
       }
     }
