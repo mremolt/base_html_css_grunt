@@ -1,7 +1,10 @@
-/* Large desktop */
-@media (min-width: 1200px) {
+/* Normal desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
 
   // IE overrides
+  .lt-ie11 {
+  }
+
   .lt-ie10 {
   }
 
@@ -16,6 +19,9 @@
 @media (min-width: 768px) and (max-width: 979px) {
 
   // IE overrides
+  .lt-ie11 {
+  }
+
   .lt-ie10 {
   }
 
@@ -27,6 +33,9 @@
 @media (max-width: 767px) {
 
   // IE overrides
+  .lt-ie11 {
+  }
+
   .lt-ie10 {
   }
 
@@ -38,6 +47,9 @@
 @media (max-width: 480px) {
 
   // IE overrides
+  .lt-ie11 {
+  }
+
   .lt-ie10 {
   }
 

@@ -12,16 +12,32 @@ $row-margin-bottom: 0px !default;
 /* framework start */
 
 // base definitons
+
 * {
   @include box-sizing(border-box);
 }
+
+img {
+  border: 0px;
+}
+
+em {
+  font-style: italic;
+
+}
+
+strong {
+  font-weight: bold;
+}
+
 
 // grid
 .container {
   @include transition (all 0.5s ease-in-out);
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: 1200px;
+  min-width: 320px;
 }
 
 .row {
@@ -76,19 +92,62 @@ $row-margin-bottom: 0px !default;
 
 
 // special classes
-.no-border {                                                                         
-  border: 0px;                                                                       
+
+.no-border {
+  border: 0px;
+}
+
+.float_right {
+  float: right;
+}
+
+.float_left {
+  float: left;
+}
+
+.black {
+  background-color: black;
+}
+
+// fonts
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.com */
+
+@font-face {
+  font-family: 'diavlobook';
+  src: url('/fonts/diavlo_book_ii_37-webfont.eot');
+  src: url('/fonts/diavlo_book_ii_37-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/diavlo_book_ii_37-webfont.woff') format('woff'), url('/fonts/diavlo_book_ii_37-webfont.ttf') format('truetype'), url('/fonts/diavlo_book_ii_37-webfont.svg#diavlobook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'diavlolight';
+  src: url('/fonts/diavlo_light_ii_37-webfont.eot');
+  src: url('/fonts/diavlo_light_ii_37-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/diavlo_light_ii_37-webfont.woff') format('woff'), url('/fonts/diavlo_light_ii_37-webfont.ttf') format('truetype'), url('/fonts/diavlo_light_ii_37-webfont.svg#diavlolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'diavlomedium';
+  src: url('/fonts/diavlo_medium_ii_37-webfont.eot');
+  src: url('/fonts/diavlo_medium_ii_37-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/diavlo_medium_ii_37-webfont.woff') format('woff'), url('/fonts/diavlo_medium_ii_37-webfont.ttf') format('truetype'), url('/fonts/diavlo_medium_ii_37-webfont.svg#diavlomedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 
 
-
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 980px) and (max-width: 1199px) {
   .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1140px;
+    width: 1000px;
   }
 
 }
@@ -196,10 +255,6 @@ $row-margin-bottom: 0px !default;
   .hidden-tablet { display: block; }
   .hidden-desktop { display: block; }
 }
-
-
-
-
 
 /* framework end */
 

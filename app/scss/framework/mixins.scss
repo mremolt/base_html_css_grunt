@@ -32,3 +32,33 @@
   font-family: "Montez", "Rochester", "Times New Roman";
 
 }
+
+@mixin arial {
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+@mixin arialblack {
+font-family: 'Arial Black', 'Arial Bold', 'Helvetica Bold', sans-serif;
+}
+
+@mixin courier {
+  font-family: Courier, "Courier New", sans-serif;
+}
+
+@mixin diavlobook {
+  font-family: "diavlobook", Arial, sans-serif;
+  font-weight: normal;
+  font-weight: normal;
+}
+
+@mixin diavlolight {
+  font-family: "diavlolight", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin diavlomedium {
+  font-family: "diavlomedium", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
